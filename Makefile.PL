@@ -26,6 +26,9 @@ configure_requires (
 
 build_requires (
    'Test::More' => 0,
+   'Test::Pod::Coverage' => 0,
+   'Test::Pod'           => 0,
+   'Test::CheckManifest' => 0,
 );
 
 requires (
